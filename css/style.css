@@ -187,3 +187,38 @@ li {
     margin-top:6vh;
     width:47vw;
 }
+
+.buttonlist {
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: row;
+    background:linear-gradient(to right, var(--violet-color), var(--secondary-color));
+    height:13.5vh;
+}
+
+.buttonlist p {
+    margin-right:3vw;
+}
+
+.buttonlist button {
+    margin-right:3vw;
+}
+
+.buttonlist--text {
+    font-size:1.25rem;
+    color:white;
+}
+
+.buttonlist--button {
+    color:white;
+    background-color: transparent;
+    border: solid 1.5px white;
+    padding: 0 1.5vw;
+    border-radius:15px;
+    margin: 1.5vh 0 1.5vh 0;
+    height: 8vh;
+    text-align: left;
+    font-size: 1.25rem;
+    width: 12vw;
+}
