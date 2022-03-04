@@ -185,7 +185,7 @@ li {
 .banner--right-CTA {
     position:relative;
     margin-top:6vh;
-    width:47vw;
+    width: 45.85vw;
 }
 
 .buttonlist {
@@ -221,4 +221,63 @@ li {
     text-align: left;
     font-size: 1.25rem;
     width: 12vw;
+}
+
+.WhyChooseUs--title {
+    font-size:1.8rem;
+    text-align: center;
+    color: var(--secondary-color);
+    margin-top:4vh;
+    margin-bottom: 4vh;
+}
+
+.WhyChooseUs--reasons-title {
+    font-size: 1.3rem;
+    margin-left:2vw;
+    font-weight: 600;
+}
+
+.WhyChooseUs--reasons-explain {
+    margin-top:1vh;
+    font-size:1.15rem;
+    margin-left:2vw;
+}
+
+.WhyChooseUs--reasons {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: left;
+}
+
+.WhyChooseUs--icons {
+    width:4vw;
+    height: 4vh;
+    color:var(--secondary-color);
+    margin-bottom: 2vh;
+    margin-left:1vw;
+}
+
+.WhyChooseUs--readmore {
+    height: 6vh;
+    width: 12vw;
+    border-radius: 5px;
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 1.0rem;
+    font-weight: 58;
+    cursor: pointer;
+    white-space: nowrap;
+    margin: 9vh 0;
+    transition: background .2s ease-out
+}
+
+.WhyChooseUs--readmore:hover {
+    background: linear-gradient(45deg,var(--violet-color) 0,var(--violet-color) 48%,var(--primary-color) 52%,var(--primary-color) 100%);
+}
+
+.WhyChooseUs {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }
