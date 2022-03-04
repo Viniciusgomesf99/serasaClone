@@ -1,0 +1,187 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    box-sizing: border-box;
+    border: none;
+}
+
+/*HEADER*/
+.header,
+.header--left-menu,
+.header--left,
+.header--right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header {
+    align-content: center;
+}
+
+.header--left-menu li {
+    justify-content: space-around;
+    margin-left: 6vw;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.header--left-menu li a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #004691;
+    font-weight: 80;
+}
+
+li {
+    list-style: none;
+}
+
+.header--left-menu {
+    margin-left: 3vw;
+}
+
+.header--left {
+    justify-content: space-around;
+    padding: 1vh 10vw;
+}
+
+.header--right {
+}
+
+.header {
+    padding: 1rem 2rem;
+}
+
+.header--right-signin {
+    height: 6vh;
+    width: 8vw;
+    border-radius: 5px;
+    background-color: #e63888;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 58;
+    cursor: pointer;
+}
+
+.header--right-signin:hover {
+    text-decoration: underline;
+}
+
+.header--right-signon {
+    height: 6vh;
+    width: 7vw;
+    border-radius: 5px;
+    background-color: white;
+    color: #e63888;
+    font-size: 0.9rem;
+    font-weight: 58;
+    border: 1px solid #e63888;
+    margin-left: 1vw;
+    cursor: pointer;
+}
+
+.header--right-signon:hover {
+    text-decoration: underline;
+}
+
+/*HEADER*/
+
+.redLineDownHeader {
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(to right, red, blue);
+}
+
+.bannerALL {
+    display: flex;
+    flex-direction: row;
+    background-color: #004691;
+}
+
+.banner {
+    margin-left: -22%;
+}
+
+.banner--right {
+    padding-top: 5vh;
+}
+
+.banner--right-consult {
+    color: white;
+    width: 600px;
+    background-color: #004691;
+    padding-left: 3vw;
+}
+
+.banner--right-consult-promo {
+    margin: 1vh 0 1vh 0;
+    font-size: 2.28rem;
+    font-weight: 300;
+    height:90%;
+}
+
+.banner--right-consult-title {
+    font-size: 1.285rem;
+    line-height: 24px;
+}
+
+.banner--right-consult-package {
+    font-size: 1.14rem;
+    margin: 2vh 0 0.5vh 0;
+    font-weight: 100;
+}
+
+.banner--right-CTA {
+    background-color: #af1685;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-left: 3vw;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.banner--right-input {
+    margin: 4vh 0 2vh 0;
+}
+
+.banner-right-inputclick {
+    height: 5.45vh;
+    background-color: #52cc6c;
+    color: white;
+    padding: 1vh 1.5vw 1vh 1.5vw;
+    -webkit-border-top-right-radius: 8px;
+    -webkit-border-bottom-right-radius: 8px;
+    -moz-border-radius-topright: 8px;
+    -moz-border-radius-bottomright: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    position:absolute;
+    cursor:pointer;
+}
+
+.banner--right-inputbox {
+    font-size:1.2rem;
+    height: 5.5vh;
+    padding: 1vh 1.5vw 1vh 1.5vw;
+    -webkit-border-top-left-radius: 8px;
+    -webkit-border-bottom-left-radius: 8px;
+    -moz-border-radius-topleft: 8px;
+    -moz-border-radius-bottomleft: 8px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    width:20vw;
+    border: none;
+}
+
+..banner--right-inputbox:active {
+    border: none;
+}
+
+.banner--right-CTA {
+    position:relative;
+    margin-top:6vh;
+    width:47vw;
+}
